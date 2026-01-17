@@ -105,12 +105,12 @@ function App() {
 
           {like ?
             <div>
-              <p>Liked</p>
+              <p>you Liked</p>
               <button className='btn' onClick={handleDislike}>Dislike</button>
             </div>
             :
             <div>
-              <p>Disliked</p>
+              <p>you Disliked</p>
               <button className='btn' onClick={handleLike}>Like</button>
             </div>
           }
